@@ -11,10 +11,10 @@ function check(){
         case hardnessValue>=150:
             result = "Hard water";
             break;
-        case hardnessValue>=50:
+        case hardnessValue=>50:
             result = "Moderately hard water";
             break;
-        case hardnessValue>=50:
+        case hardnessValue<50:
             result = "Soft water";
             break;
         default:
